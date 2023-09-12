@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1694544532 source:/home/jamesstrouth/workspace/CPP_Code/inheritance_example/main.cpp
+	<iostream>
+	<jwsDerived3.h>
+
+1694542741 source:/home/jamesstrouth/workspace/CPP_Code/inheritance_example/jwsBase.cpp
+	"jwsBase.h"
+
+1694542713 /home/jamesstrouth/workspace/CPP_Code/inheritance_example/jwsBase.h
+	<iostream>
+
+1694542713 /home/jamesstrouth/workspace/CPP_Code/inheritance_example//jwsBase.h
+	<iostream>
+
+1694544039 source:/home/jamesstrouth/workspace/CPP_Code/inheritance_example/jwsDerived1.cpp
+	"jwsDerived1.h"
+
+1694543557 /home/jamesstrouth/workspace/CPP_Code/inheritance_example/jwsDerived1.h
+	<jwsBase.h>
+
+1694543557 /home/jamesstrouth/workspace/CPP_Code/inheritance_example//jwsDerived1.h
+	<jwsBase.h>
+
+1694543344 source:/home/jamesstrouth/workspace/CPP_Code/inheritance_example/jwsDerived2.cpp
+	"jwsDerived2.h"
+
+1694543753 /home/jamesstrouth/workspace/CPP_Code/inheritance_example/jwsDerived2.h
+	<jwsBase.h>
+
+1694543753 /home/jamesstrouth/workspace/CPP_Code/inheritance_example//jwsDerived2.h
+	<jwsBase.h>
+
+1694544672 source:/home/jamesstrouth/workspace/CPP_Code/inheritance_example/jwsDerived3.cpp
+	"jwsDerived3.h"
+
+1694544618 /home/jamesstrouth/workspace/CPP_Code/inheritance_example/jwsDerived3.h
+	<jwsDerived1.h>
+	<jwsDerived2.h>
+
+1694544618 /home/jamesstrouth/workspace/CPP_Code/inheritance_example//jwsDerived3.h
+	<jwsDerived1.h>
+	<jwsDerived2.h>
+
