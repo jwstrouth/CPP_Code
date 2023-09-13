@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1694611884 source:/home/jamesstrouth/workspace/CPP_Code/polymorphism_example/main.cpp
+	<iostream>
+	<jwsLiterToGallon.h>
+
+1694610717 source:/home/jamesstrouth/workspace/CPP_Code/polymorphism_example/jwsBase.cpp
+	"jwsBase.h"
+
+1694610846 /home/jamesstrouth/workspace/CPP_Code/polymorphism_example/jwsBase.h
+	<iostream>
+
+1694612441 source:/home/jamesstrouth/workspace/CPP_Code/polymorphism_example/jwsConvert.cpp
+	"jwsConvert.h"
+	<iostream>
+
+1694612417 /home/jamesstrouth/workspace/CPP_Code/polymorphism_example/jwsConvert.h
+
+1694612417 /home/jamesstrouth/workspace/CPP_Code/polymorphism_example//jwsConvert.h
+
+1694612300 source:/home/jamesstrouth/workspace/CPP_Code/polymorphism_example/jwsLiterToGallon.cpp
+	"jwsLiterToGallon.h"
+	<iostream>
+
+1694612511 /home/jamesstrouth/workspace/CPP_Code/polymorphism_example/jwsLiterToGallon.h
+	<jwsConvert.h>
+
+1694612511 /home/jamesstrouth/workspace/CPP_Code/polymorphism_example//jwsLiterToGallon.h
+	<jwsConvert.h>
+
