@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1694636131 source:/home/jamesstrouth/workspace/CPP_Code/class_and_ object_example/main.cpp
+	<iostream>
+	<jwsA.h>
+
+1694636096 source:/home/jamesstrouth/workspace/CPP_Code/class_and_ object_example/jwsA.cpp
+	"jwsA.h"
+
+1694636224 /home/jamesstrouth/workspace/CPP_Code/class_and_ object_example/jwsA.h
+	<iostream>
+
+1694636224 /home/jamesstrouth/workspace/CPP_Code/class_and_ object_example//jwsA.h
+	<iostream>
+
