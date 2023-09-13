@@ -36,6 +36,8 @@
 		<Unit filename="jwsBase.h" />
 		<Unit filename="jwsConvert.cpp" />
 		<Unit filename="jwsConvert.h" />
+		<Unit filename="jwsFarenheitToCelsius.cpp" />
+		<Unit filename="jwsFarenheitToCelsius.h" />
 		<Unit filename="jwsLiterToGallon.cpp" />
 		<Unit filename="jwsLiterToGallon.h" />
 		<Unit filename="main.cpp" />
