@@ -33,7 +33,6 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="jwsBase.h" />
 		<Unit filename="jwsConvert.cpp" />
 		<Unit filename="jwsConvert.h" />
 		<Unit filename="jwsFarenheitToCelsius.cpp" />

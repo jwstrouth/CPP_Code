@@ -23,11 +23,10 @@ class jwsDerived3: public jwsDerived1, public jwsDerived2
         void set(int e){ m = e; }
         void showm(){ cout << "m; " << m << "\n"; }
 
-        int m;
-
     protected:
 
     private:
+        int m;
 };
 
 #endif // JWSDERIVED3_H

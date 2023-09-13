@@ -24,11 +24,11 @@ class jwsDerived1 : virtual jwsBase
 
         void setk(int c){ k = c; }
         void showk(){ cout << "k; " << k << "\n"; }
-        int k;
 
     protected:
 
     private:
+        int k;
 };
 
 #endif // JWSDERIVED1_H

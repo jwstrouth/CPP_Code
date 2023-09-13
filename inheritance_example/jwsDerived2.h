@@ -25,11 +25,10 @@ class jwsDerived2 : virtual jwsBase
         void setl(int d){ l = d; }
         void showl(){ cout << "l; " << l << "\n"; }
 
-        int l;
-
     protected:
 
     private:
+        int l;
 };
 
 #endif // JWSDERIVED2_H

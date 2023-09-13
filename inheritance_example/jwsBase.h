@@ -24,11 +24,10 @@ class jwsBase
         void set(int a, int b){ i = a; j = b; }
         void show(){ cout << "i; " << i << ", j: " << j << "\n"; }
 
-        int i, j;
-
     protected:
 
     private:
+        int i, j;
 };
 
 #endif // JWSBASE_H
