@@ -35,6 +35,8 @@
 		</Compiler>
 		<Unit filename="jwsA.cpp" />
 		<Unit filename="jwsA.h" />
+		<Unit filename="jwsB.cpp" />
+		<Unit filename="jwsB.h" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>

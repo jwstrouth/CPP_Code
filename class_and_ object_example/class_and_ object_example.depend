@@ -1,14 +1,26 @@
 # depslib dependency file v1.0
-1694636131 source:/home/jamesstrouth/workspace/CPP_Code/class_and_ object_example/main.cpp
+1694697535 source:/home/jamesstrouth/workspace/CPP_Code/class_and_ object_example/main.cpp
 	<iostream>
 	<jwsA.h>
+	<jwsB.h>
 
-1694636096 source:/home/jamesstrouth/workspace/CPP_Code/class_and_ object_example/jwsA.cpp
-	"jwsA.h"
+1694697385 source:/home/jamesstrouth/workspace/CPP_Code/class_and_ object_example/jwsA.cpp
+	<jwsA.h>
+	<jwsB.h>
 
-1694636224 /home/jamesstrouth/workspace/CPP_Code/class_and_ object_example/jwsA.h
+1694692486 /home/jamesstrouth/workspace/CPP_Code/class_and_ object_example/jwsA.h
 	<iostream>
 
-1694636224 /home/jamesstrouth/workspace/CPP_Code/class_and_ object_example//jwsA.h
+1694698419 /home/jamesstrouth/workspace/CPP_Code/class_and_ object_example//jwsA.h
+	<iostream>
+
+1694697415 source:/home/jamesstrouth/workspace/CPP_Code/class_and_ object_example/jwsB.cpp
+	<jwsB.h>
+	<jwsA.h>
+
+1694693108 /home/jamesstrouth/workspace/CPP_Code/class_and_ object_example/jwsB.h
+	<jwsA.h>
+
+1694698419 /home/jamesstrouth/workspace/CPP_Code/class_and_ object_example//jwsB.h
 	<iostream>
 

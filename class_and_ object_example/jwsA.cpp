@@ -7,20 +7,53 @@
  *
  */
 
-#include "jwsA.h"
+#include <jwsA.h>
+#include <jwsB.h>
+
+int jwsA::x = 30;
+jwsA *pA = 0;
 
 jwsA::jwsA()
 {
-    //ctor
+    pA = this;
+    cout << "jwsA()\n";
 }
 
 jwsA::~jwsA()
 {
-    //dtor
+    cout << "~jwsA()\n";
 }
 
+// will see jwsB pass by value destructor printout
+void jwsA::showj(jwsB x)
+{
+    cout << "jwsB::j (jwsA::showj()) = " << x.j << "\n";
+}
+
+void jwsA::staticfunc()
+{
+    if(pA)
+    {
+        pA->sety(50);
+        cout << "show y from staticfunc()\n";
+        pA->showy();
+    }
+}
+
+void jwsA::showy()
+{
+    cout << "jwsA::y = " << y << "\n";
+}
+
+// showi function is friends with jwsA class and can get access with jwsA::i data
+// also see jwsA passed by value destructor printout
 void showi(jwsA x)
 {
-    cout << "x.i = " << x.i << "\n";
+    cout << "jwsA::i (showi()) = " << x.i << "\n";
+}
+
+void showx()
+{
+    cout << "jwsA::x (static) = " << jwsA::x << "\n";
 }
 
