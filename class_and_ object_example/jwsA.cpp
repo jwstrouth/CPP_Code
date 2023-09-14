@@ -24,7 +24,7 @@ jwsA::~jwsA()
     cout << "~jwsA()\n";
 }
 
-// will see jwsB pass by value destructor printout
+// will see jwsB pass by value copy constructor/destructor printout
 void jwsA::showj(jwsB x)
 {
     cout << "jwsB::j (jwsA::showj()) = " << x.j << "\n";
