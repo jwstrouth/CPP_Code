@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1694725136 source:/home/jamesstrouth/workspace/CPP_Code/arrays_pointers_references_example/main.cpp
+	<iostream>
+	<jwsMyClass.h>
+
+1694725225 source:/home/jamesstrouth/workspace/CPP_Code/arrays_pointers_references_example/jwsMyClass.cpp
+	"jwsMyClass.h"
+
+1694725330 /home/jamesstrouth/workspace/CPP_Code/arrays_pointers_references_example/jwsMyClass.h
+	<iostream>
+
+1694725330 /home/jamesstrouth/workspace/CPP_Code/arrays_pointers_references_example//jwsMyClass.h
+	<iostream>
+
