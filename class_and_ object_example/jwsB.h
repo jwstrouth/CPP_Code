@@ -19,10 +19,15 @@ class jwsB
 {
     public:
         jwsB();
-        jwsB(const jwsB &b){ cout << "jwsB() copy constructor\n"; }
+        jwsB(const jwsB &b)
+        {
+            j = b.j;
+            cout << "jwsB() copy constructor\n";
+            cout << "jwsB address: " << this << "\n";
+        }
         virtual ~jwsB();
 
-        void set(int b){ j = b; cout << "set jwsB::i = " << j << "\n"; }
+        void set(int b){ j = b; cout << "set jwsB::j = " << j << "\n"; }
         void showi(jwsA x);
 
     protected:

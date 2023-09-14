@@ -17,6 +17,7 @@ jwsA::jwsA()
 {
     pA = this;
     cout << "jwsA()\n";
+    cout << "jwsA address: " << this << "\n";
 }
 
 jwsA::~jwsA()

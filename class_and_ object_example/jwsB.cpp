@@ -13,6 +13,7 @@
 jwsB::jwsB()
 {
     cout << "jwsB()\n";
+    cout << "jwsB address: " << this << "\n";
 }
 
 jwsB::~jwsB()

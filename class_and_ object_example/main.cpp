@@ -43,6 +43,7 @@ int main(int argc, char **argv)
     a = a1;
     cout << "assigned a to a1 with different i value\n";
     b.showi(a);
+    jwsA::staticfunc();
 
     return 0;
 }

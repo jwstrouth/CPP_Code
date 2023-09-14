@@ -19,7 +19,13 @@ class jwsA
 {
     public:
         jwsA();
-        jwsA(const jwsA &a){ cout << "jwsA() copy constructor\n"; }
+        jwsA(const jwsA &a)
+        {
+            i = a.i;
+            y = a.y;
+            cout << i << "jwsA() copy constructor\n";
+            cout << "jwsA address: " << this << "\n";
+        }
         virtual ~jwsA();
 
         void seti(int a){ i = a; cout << "set jwsA::i = " << i << "\n"; }
