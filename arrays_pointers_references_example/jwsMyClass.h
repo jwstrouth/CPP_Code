@@ -1,3 +1,12 @@
+/* @file jwsMyClass.h
+ *
+ * @brief the jwsMyClass declaration for this arrays, pointers, references example
+ *
+ * @author James Strouth
+ * Contact: jamesstrouth@gmail.com
+ *
+ */
+
 #ifndef JWSMYCLASS_H
 #define JWSMYCLASS_H
 
