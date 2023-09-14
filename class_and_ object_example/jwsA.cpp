@@ -46,7 +46,7 @@ void jwsA::showy()
 }
 
 // showi function is friends with jwsA class and can get access with jwsA::i data
-// also see jwsA passed by value destructor printout
+// also see jwsA passed by value copy constructor/destructor printout
 void showi(jwsA x)
 {
     cout << "jwsA::i (showi()) = " << x.i << "\n";
