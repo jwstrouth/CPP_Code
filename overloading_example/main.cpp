@@ -19,7 +19,7 @@ int main()
     ++ob1;
     ob1.Show();
 
-    // postfix incrementation of 30 by 1 (returns old value) and shows it as 32
+    // postfix incrementation of 31 by 1 (returns old value) and shows it as 32
     old = ob1++;
     cout << "Show old value...";
     old.Show();
