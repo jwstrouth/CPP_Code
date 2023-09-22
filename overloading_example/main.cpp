@@ -26,12 +26,16 @@ int main()
     ob1.Show();
 
     // overloaded operator+ to push jwsData object to front of list (ob1, ob2, old)
+    // Notes; a lot of coping is happening pushing by value.  better to use pointer or reference.
     dataCol.Show();
+    cout << "Add ob1: Address: " << &ob1 << endl;
     dataCol + ob1;
+    cout << "Add ob2: Address: " << &ob2 << endl;
     dataCol + ob2;
+    cout << "Add old: Address: " << &old << endl;
     dataCol + old;
     dataCol.Show();
-    // overload operator[] and walk through collection and show ob1, ob2, and old
+    // overload operator[] and walk through collection and show copy of ob1, ob2, and old
     for(i=0;i<3;i++)
     {
         switch(i)

@@ -3,11 +3,12 @@
 jwsData::jwsData(int i)
 {
     m_data = i;
+    cout << "jwsData: Address: " << this << endl;
 }
 
 jwsData::~jwsData()
 {
-
+    cout << "~jwsData: Address: " << this << endl;
 }
 
 jwsData jwsData::operator+(jwsData data)

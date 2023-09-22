@@ -21,6 +21,7 @@ class jwsListCollection
         void Remove(){ m_data.pop_front(); }
         void operator+(jwsData data)
         {
+            cout << "push_front using operator+\n";
             m_data.push_front(data);
         }
         jwsData Get(int i)
