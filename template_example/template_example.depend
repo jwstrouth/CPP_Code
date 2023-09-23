@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1695477274 source:/home/jamesstrouth/workspace/CPP_Code/template_example/main.cpp
+	<iostream>
+	<jwsVector.h>
+
+1695477441 source:/home/jamesstrouth/workspace/CPP_Code/template_example/jwsVector.cpp
+	"jwsVector.h"
+
+1695477451 /home/jamesstrouth/workspace/CPP_Code/template_example/jwsVector.h
+	<vector>
+	<iostream>
+
+1695477451 /home/jamesstrouth/workspace/CPP_Code/template_example//jwsVector.h
+	<vector>
+	<iostream>
+
