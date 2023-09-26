@@ -54,5 +54,26 @@ int main()
     cout << "Duck: Phone number: " << directory[name("Duck")].get() << endl;
     cout << "Zibera: Phone number: " << directory[name("Zibera")].get() << endl;
 
+    multimap<string, string> clients;
+
+    clients.insert(pair<string, string>("Disney", "Donald"));
+    clients.insert(pair<string, string>("Disney", "Mickey"));
+    clients.insert(pair<string, string>("Disney", "Goofy"));
+
+    multimap<string, string>::iterator p1;
+
+    string n("Disney");
+
+    p1 = clients.find(string(n));
+    if(p1 != clients.end())
+    {
+        do
+        {
+            cout << n << " , " << p1->second << endl;
+            p1++;
+        } while(p1 != clients.upper_bound(n));
+    }
+
+
     return 0;
 }
