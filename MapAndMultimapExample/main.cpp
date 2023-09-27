@@ -32,7 +32,7 @@ int main()
 
     directory.insert(pair<name, phoneNumber>(name("Mouse"), phoneNumber("111-222-3333")));
     directory.insert(pair<name, phoneNumber>(name("Duck"), phoneNumber("111-222-3334")));
-    directory.insert(pair<name, phoneNumber>(name("Zibera"), phoneNumber("111-222-3335")));
+    directory.insert(pair<name, phoneNumber>(name("Zibra"), phoneNumber("111-222-3335")));
 
     map<name, phoneNumber>::iterator p;
 
@@ -52,7 +52,7 @@ int main()
     directory[name("Tiger")] = phoneNumber("111-444-6666");
     cout << "Tiger: Phone number: " << directory[name("Tiger")].get() << endl;
     cout << "Duck: Phone number: " << directory[name("Duck")].get() << endl;
-    cout << "Zibera: Phone number: " << directory[name("Zibera")].get() << endl;
+    cout << "Zibra: Phone number: " << directory[name("Zibera")].get() << endl;
 
     multimap<string, string> clients;
 
