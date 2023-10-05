@@ -19,7 +19,7 @@ using namespace std;
 int retx(int x){ return x; }
 
 // a function object class
-struct haft
+struct half
 {
     int operator()(int x){ return x/2; }
 };
@@ -38,7 +38,7 @@ int main()
 {
     function<int(int)> fn1 = retx; // function
     function<int(int)> fn2 = &retx; // function pointer
-    function<int(int)> fn3 = haft(); // function operator
+    function<int(int)> fn3 = half(); // function operator
     function<int(int)> fn4 = [](int x){ return x; }; // lambda expression
     function<int(third&)> fn5 = &third::retval; // pointer to member function
     function<int()> fn6 = bind(retx, 50); // bind function to initial value
